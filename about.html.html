@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with-device-width, initial scale=1.0">
+    <title>Jose Rizal Information</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="web/image.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html.html">ABOUT US</a></li>
+                    <li><a href="contact.html.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<!------ about us content ------>
+<section class="about us">
+    <div class="row">
+        <div class="about-col">
+            <img src="WEB/design.jpg">
+            <div class="layer">  
+                <h1>DEVELOPERS<br>
+                BSCS III-B<br>Delgado, Mary Gold<br>Montaron, Joberth<br>Laririt, Dhonna Rose<br>Ricalde, Divine </h1>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------- footer ----->
+
+<section class="footer">
+    <h1>About</h1>
+    <P>Jose Rizal Information is webpage dedicate to our well-known national hero, Jose Protacio Rizal Mercado y Alonso Realonda,
+        <br> known as Dr. Jose P. Rizal. </P>
+    <div class="icons">
+        <a href="https://www.facebook.com/ " target="_blank"><i class="fa fa-facebook-official"></i></a>
+        <a href="https://www.instagram.com/ " target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.twitter.com/ " target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.telegram.com/ " target="_blank"><i class="fa fa-telegram"></i></a>
+    </div>
+</section>
+
+
+
+
+
+<!--------JavaScript for Toggle Menu----->
+<script>
+
+     var navLinks = document.getElementById("navLinks");
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+
+
+</script>    
+
+</body>
+</html>
